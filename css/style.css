@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+  
+  /* https://www.stefanjudis.com/today-i-learned/css-grid-will-soon-be-the-shortest-way-to-center-elements/ */
+  /* https://codepen.io/stefanjudis/pen/mKoBQM */
+
+  body {
+      display: grid;
+      justify-items: center;
+  }
+
+  /* add grid to main to  get the vertical center higher */
+/* https://www.freecodecamp.org/forum/t/css-grid-text-align-mid-but-keep-grid-box-size/241560/6 */
+  .main {
+    display: grid;
+    align-items: center;
+  }
+
+.card {
+    height: 50vh;
+    width: 75vw;
+}
+
+.page-title {
+    text-align: center;
+    color: #40004b;
+}
+
+.mt-thead-style {
+  color: white;
+  background-color: #40004b;
+}
+
+.mt-caption {
+  color: #40004b;
+}
